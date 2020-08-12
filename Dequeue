@@ -1,0 +1,25 @@
+import collections
+
+DoubleEnded = collections.deque(["february ","march","april"])
+print (DoubleEnded);
+
+
+print("Adding to the right: ")
+DoubleEnded.append("may")
+print (DoubleEnded);
+
+
+print("Adding to the left: ")
+DoubleEnded.appendleft("january")
+print (DoubleEnded);
+
+
+
+print("Removing from the left: ")
+DoubleEnded.popleft()
+print (DoubleEnded);
+
+
+print("Reversing the deque: ")
+DoubleEnded.reverse()
+print (DoubleEnded);
